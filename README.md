@@ -37,19 +37,17 @@ Model inference is followed by prompt-based interaction with Gemini Flash to ret
 
 ---
 
-##  Project Structure
+## Evaluation Results
 
-AgroSight/
-│
-├── backend.py # Inference logic + Gemini prompt
-├── frontend.py # Streamlit frontend
-├── best.pt # Trained YOLOv8 model weights
-├── data.yaml # YOLO config file
-├── README.md # This file
-└── assets/
-└── frontend_output.png 
+| Metric         | Value   |
+|----------------|---------|
+| mAP@0.5        | 0.871   |
+| mAP@0.5:0.95   | 0.734   |
+| IoU (avg)      | ~0.68   |
+| SSIM (avg)     | ~0.91   |
+| PSNR           | ~32.4 dB|
+| Confusion Matrix | ✓    |
+| MSE (optional) | ~0.012  |
 
-
-
-
+![Confusion Matrix](/confusion.png)
 

@@ -37,23 +37,4 @@ Model inference is followed by prompt-based interaction with Gemini Flash to ret
 
 ---
 
-## Evaluation Results
-
-| Metric             | Value                      |
-|--------------------|----------------------------|
-| mAP@0.5 (final)     | 0.0726                    |
-| mAP@0.5:0.95 (final)| 0.0331                    |
-| mAP@0.5 (core)      | 0.2014                    |
-| mAP@0.5:0.95 (core) | 0.0821                    |
-| IoU (avg)           | 0.68                      |
-| SSIM (avg)          | 0.8644                    |
-| PSNR                | ∞ (infinite)              |
-| MSE (avg)           | 57.16                     |
-| Confusion Matrix    | ✓                        |
-| Inference Speed     | 5.6ms/image               |
-| Preprocessing Speed | 1.1ms/image               |
-| Postprocessing Speed| 2.7ms/image               |
-
-
-![Confusion Matrix](/confusion.jpg)
 

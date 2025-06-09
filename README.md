@@ -19,7 +19,7 @@ AgroSight is an end-to-end AI-powered system for detecting pests on crop leaves 
 
 Below is a snapshot of the AgroSight web interface in action:
 
-![Frontend UI](assets/frontend_output.png)
+![Frontend UI](/frontend.jpg)
 
 Users upload an image → pest is detected → bounding box and name appear → Gemini generates expert advice.
 

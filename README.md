@@ -1,1 +1,1 @@
-# AgroSight-Intelligent-Pest-Detection-Advisory
+# pest_Detection

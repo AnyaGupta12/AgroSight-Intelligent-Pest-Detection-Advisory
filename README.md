@@ -49,5 +49,5 @@ Model inference is followed by prompt-based interaction with Gemini Flash to ret
 | Confusion Matrix | ✓    |
 | MSE (optional) | ~0.012  |
 
-![Confusion Matrix](/confusion.png)
+![Confusion Matrix](/confusion.jpg)
 
